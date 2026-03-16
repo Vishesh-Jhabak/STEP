@@ -20,12 +20,21 @@ public class UsernameChecker {
             System.out.println("Username already taken.");
 
             System.out.println("Suggestions:");
+
             System.out.println(username + "1");
+
             System.out.println(username + "2");
+
             System.out.println(username.replace("_", "."));
+
+
         } else {
             System.out.println("Username available.");
         }
+
+
+
+
 
         sc.close();
     }
